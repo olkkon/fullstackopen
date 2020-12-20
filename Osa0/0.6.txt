@@ -1,0 +1,12 @@
+
+note over selain:
+Uusi muistiinpano luodaan Single Page - sovelluksessa ja painetaan tallenna.
+Uusi muistiinpano päivitetään sivulle JavaScriptin avulla.
+end note
+
+
+selain->palvelin: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+note over palvelin:
+Muistiinpano tallennetaan palvelimella JSON tiedostoon
+end note
+palvelin-->selain: HTML Status Code 201 - Onnistui
